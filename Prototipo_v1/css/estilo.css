@@ -16,10 +16,19 @@ ul {
 }
 
 /*/////////////////////// HEADER /////////////////////////////////////////////// */
-
-.header {
-  background-color: rgb(230, 230, 230);
+#header{
+    /* background-color: black; */
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    z-index: 2;
+    background-color: white;
 }
+/* .header {
+  background-color: rgb(230, 230, 230);
+} */
 
 .header-row {
   display: flex;
@@ -207,16 +216,12 @@ nav a {
 /*/////////////////////// FOOTER/////////////////////////////////////////////// */
 
 .footer {
-  display: block;
   background-color: rgb(34, 34, 34);
   padding-top: 30px;
   padding-bottom: 130px;
 }
 
 .footer-container {
-  padding-left: 200px;
-  padding-top: 200px;
-  padding-right: 200px;
   background-color: rgb(34, 34, 34);
   max-width: 100%;
   margin: auto;

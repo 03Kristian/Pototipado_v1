@@ -10,7 +10,7 @@ require_once("template/PlantillaIndex.php");
         <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
           <h3>PatojoMarket</h3>
         </a>
-        
+
         <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
           <li>
             <a href="#" class="nav-link text-secondary">
@@ -57,35 +57,39 @@ require_once("template/PlantillaIndex.php");
     </div>
   </div>
   <div class="px-3 py-2 border-bottom mb-3">
-      <div class="container d-flex flex-wrap justify-content-center">
-        <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto">
-          <input type="search" class="form-control" placeholder="Buscar productos marcas y mas..." aria-label="Search">
+    <div class="container d-flex flex-wrap justify-content-center">
+      <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto">
+        <input type="search" class="form-control" placeholder="Buscar productos marcas y mas..." aria-label="Search">
         <div class="dropdown text-end">
           <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle show" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="true">
-          Filtar por...</a>
-          <ul class="dropdown-menu text-small show" aria-labelledby="dropdownUser1" style="position: absolute; inset: 0px 0px auto auto; margin: 0px; transform: translate(0px, 34px);" data-popper-placement="bottom-end" >
+            Filtar por...</a>
+          <ul class="dropdown-menu text-small show" aria-labelledby="dropdownUser1" style="position: absolute; inset: 0px 0px auto auto; margin: 0px; transform: translate(0px, 34px);" data-popper-placement="bottom-end">
             <li><a class="dropdown-item" href="#">Masculino</a></li>
             <li><a class="dropdown-item" href="#">Femenino</a></li>
             <li><a class="dropdown-item" href="#">Infantil</a></li>
             <li><a class="dropdown-item" href="#">No binario</a></li>
-            <li><hr class="dropdown-divider"></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
             <li><a class="dropdown-item" href="#">Electronica, Audio-Video</a></li>
             <li><a class="dropdown-item" href="#">Hogar y Muebles</a></li>
             <li><a class="dropdown-item" href="#">Vestimenta y Accesorios</a></li>
             <li><a class="dropdown-item" href="#">Animales y Mascotas</a></li>
-            <li><hr class="dropdown-divider"></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
             <li><a class="dropdown-item" href="#">Servicios de reparacion</a></li>
           </ul>
         </div>
-        </form>
-        <div class="text-end">
+      </form>
+      <div class="text-end">
         <a href="usuario/vista/login.php">
           <button type="button" class="btn btn-light text-dark me-2">Iniciar Sesion</button></a>
-        <a href="usuario/vista/add.php">  
+        <a href="usuario/vista/add.php">
           <button type="button" class="btn btn-primary">Registrarse</button></a>
-        </div>
       </div>
     </div>
+  </div>
 </header>
 <!--main -->
 
@@ -137,54 +141,106 @@ require_once("template/PlantillaIndex.php");
 
   <hr class="featurette-divider">
 
-  <div class="row featurette">
-    <div class="col-md-7">
-      <h2 class="featurette-heading" _msthash="971919" _msttexthash="2157038">Primer encabezado de featurette. <span class="text-muted" _istranslated="1">Te dejará boquiabierto.</span></h2>
-      <p class="lead" _msthash="930293" _msttexthash="7829354">Un gran contenido de marcador de posición para la primera característica aquí. Imagina una prosa emocionante aquí.</p>
-    </div>
-    <div class="col-md-5">
-      <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Marcador de posición: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false" _mstaria-label="599560">
-        <title _mstHash="1029535" _mstTextHash="112281">Marcador</title>
-        <rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em" _mstHash="1401569" _mstTextHash="54210">500x500</text>
-      </svg>
+  <div class="section-row">
+    <section class="section-col">
+      <div class="section-text">
+        <h1>Patojo Market</h1>
+        <h2>¡¡buy and sell!!</h2>
+        <p></p>
+        <div>
+          <button class="btn__section-1">watch now</button>
+          <button class="btn__section-2">the Collections <span>♠</span></button>
+        </div>
+      </div>
+    </section>
+    <section class="section-col">
+      <img src="./imagen/imag.png" alt="" class="img-main">
+    </section>
 
-    </div>
-  </div>
-
-  <hr class="featurette-divider">
-
-  <div class="row featurette">
-    <div class="col-md-7 order-md-2">
-      <h2 class="featurette-heading" _msthash="972777" _msttexthash="1511549">Oh sí, es así de bueno. <span class="text-muted" _istranslated="1">Compruébalo por ti mismo.</span></h2>
-      <p class="lead" _msthash="931112" _msttexthash="17342793">¿Otra característica? Claro. Más contenido de marcador de posición aquí para darle una idea de cómo funcionaría este diseño con algún contenido real del mundo real en su lugar.</p>
-    </div>
-    <div class="col-md-5 order-md-1">
-      <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Marcador de posición: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false" _mstaria-label="599560">
-        <title _mstHash="1030432" _mstTextHash="112281">Marcador</title>
-        <rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em" _mstHash="1402739" _mstTextHash="54210">500x500</text>
-      </svg>
-
+    <div class="main-btns">
+      <button><i class="fa-solid fa-circle"></i></button>
+      <button><i class="fa-solid fa-circle"></i></button>
+      <button><i class="fa-solid fa-circle"></i></button>
     </div>
   </div>
 
   <hr class="featurette-divider">
-
-  <div class="row featurette">
-    <div class="col-md-7">
-      <h2 class="featurette-heading" _msthash="1008111" _msttexthash="661297">Y por último, este. <span class="text-muted" _istranslated="1">Jaque mate.</span></h2>
-      <p class="lead" _msthash="965900" _msttexthash="31949996">Y sí, este es el último bloque de contenido de marcador de posición representativo. Una vez más, no está realmente destinado a ser leído, simplemente aquí para darle una mejor visión de cómo se vería esto con algún contenido real. Su contenido.</p>
-    </div>
-    <div class="col-md-5">
-      <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Marcador de posición: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false" _mstaria-label="599560">
-        <title _mstHash="1066312" _mstTextHash="112281">Marcador</title>
-        <rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em" _mstHash="1442441" _mstTextHash="54210">500x500</text>
-      </svg>
-
-    </div>
-  </div>
-
-  <hr class="featurette-divider">
-
+  <!-- <hr class="featurette-divider"> -->
   <!-- /END THE FEATURETTES -->
-
 </div>
+<footer class="footer">
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-lg-3 mb-3">
+        <a class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none" href="/" aria-label="Bootstrap">
+          <span class="fs-5" style="color: white;">
+            <h2>PatojoMarket</h2>
+          </span>
+        </a>
+        <ul class="list-unstyled small text-muted">
+          <li class="mb-2">Popayan - Cauca</li>
+          <li class="mb-2">Colombia</li><br>
+          <li class="mb-2">Contacto col: 01 8000 2123</li>
+          <li class="mb-2">Correo: support@PatojoM.com</li>
+          <li class="mb-2">Redes Sociales: </li>
+
+        </ul>
+      </div>
+      <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+        <span style="color: white;">
+          <h5>Shop for</h5>
+        </span>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="#">Gadgets</a></li>
+          <li class="mb-2"><a href="#">Computers & laptops</a></li>
+          <li class="mb-2"><a href="#">Cameras</a></li>
+          <li class="mb-2"><a href="#">Smarthphones</a></li>
+          <li class="mb-2"><a href="#">Tv's</a></li>
+          <li class="mb-2"><a href="#">Videogames</a></li>
+          <li class="mb-2"><a href="#">clothing</a></li>
+          <li class="mb-2"><a href="#">shoes</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-2 mb-3">
+        <span style="color: white;">
+          <h5>Information</h5>
+        </span>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="#">Gadgets</a></li>
+          <li class="mb-2"><a href="#">Computers & laptops</a></li>
+          <li class="mb-2"><a href="#">Cameras</a></li>
+          <li class="mb-2"><a href="#">Smarthphones</a></li>
+          <li class="mb-2"><a href="#">Tv's</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-2 mb-3">
+        <span style="color: white;">
+          <h5>Customer service</h5>
+        </span>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="#">concerns</a></li>
+          <li class="mb-2"><a href="#">suggestions</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-2 mb-3">
+        <span style="color: white;">
+          <h4> Suscribe now </h4>
+        </span>
+        <ul class="list-unstyled small text-muted">
+          <br>
+          <li class="txt-muted Kbd">Our platform is for you 24 hours what are you waiting for</li>
+          <br>
+          <div class="txt-muted">
+            <input type="email" placeholder="Your email.." width="100" class="input">
+            <button type="button" class="input-btn">Suscribe</button>
+          </div>
+          <li>
+            <p>Payment facility</p>
+          </li>
+        </ul>
+      </div>
+      
+    </div>
+    <div class="barra-footer"> © Derechos Reservados - 2022</div>
+  </div>
+</footer>

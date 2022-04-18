@@ -112,6 +112,7 @@
 </div>
 <!-- Main -->
 <!-- Footer -->
+
         <footer class="footer">
             <div class="footer-container">
                 <div class="row">

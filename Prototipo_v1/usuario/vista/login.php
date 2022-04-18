@@ -1,16 +1,17 @@
 <?php
-require_once("../../template/plantillaFormulario.php");
+  require_once("../../template/plantillaFormulario.php");
 ?>
-<header>
-  <div class="px-3 py-2 bg-dark text-white">
-    <div class="container">
-      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-        <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
-          <h3>PatojoMarket</h3>
-        </a>
+
+  <header>
+    <div class="px-3 py-2 bg-dark text-white">
+      <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          <a href="../../Index.php" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+            <h3>PatojoMarket</h3>
+          </a>
+        </div>
       </div>
     </div>
-  </div>
   </header>
 
 <div class="form-signin">
