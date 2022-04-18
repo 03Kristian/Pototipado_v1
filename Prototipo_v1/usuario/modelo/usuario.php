@@ -27,14 +27,27 @@
 
         }//end login
 
-        public function insertarUsuario($nombre, $email, $password){
+        public function insertarUsuario($Id, $nombre,$apellido, $correo, $contrasena,$cell, $ubicacion)
+        {
             //prepare prepara la consulta SQL enviada ->Insert Into
-            $tabla = $this->db->prepare("INSERT INTO usuario(nombre, email, password) 
-            VALUE(:nombre, :email, :password)");
-            $tabla->bindParam(':nombre', $nombre);
-            $tabla->bindParam(':email', $email);
-            $tabla->bindParam(':password', $password);
+            $tabla = $this->db->prepare("INSERT INTO usuario(UsuarioId,Nombre,Apellido,Correo,Contrasena,Celular,Direccion) 
+            VALUE(:UsuarioId, :Nombre, :Apellido, :Correo, :Contrasena,:Celular, :Direccion)");
+            $tabla->bindParam(':UsuarioId', $Id);
+            $tabla->bindParam(':Nombre', $nombre);
+            $tabla->bindParam(':Apellido', $apellido);
+            $tabla->bindParam(':Correo', $correo);
+            $tabla->bindParam(':Contrasena', $contrasena);
+            $tabla->bindParam(':Celular',$cell);
+            $tabla->bindParam(':Direccion',$ubicacion);
             $tabla->execute();
+        /*     if ($tabla->execute()==1) {
+                
+                echo "Registro exitoso!!";
+                header('refresh:3 Location: ../Vista/perfil.php');
+            }else{
+                // echo "Registro!! Fallo!!";
+                header('Location:../Vista/add.php');
+            } */
         }
 
         //VER TODOS LOS USUARIOS
